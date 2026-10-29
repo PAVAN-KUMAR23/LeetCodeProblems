@@ -10,8 +10,8 @@ public class TwoSum {
     //You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
     public static void main(String[] args) {
-        int[] numbs = {2, 7, 11, 15};
-        int target = 9;
+        int[] numbs = {2, 3,9,11,15,6};
+        int target = 20;
         Map<Integer, Integer> resultMap = new HashMap<>();
         for (int i=0;i<numbs.length;i++) {
             int result = target - numbs[i];
